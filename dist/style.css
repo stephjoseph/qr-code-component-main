@@ -601,6 +601,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(125 136 158 / var(--tw-text-opacity));
 }
 
+.drop-shadow-\[0_25px_25px_rgba\(0\2c 0\2c 0\2c 0\.0477\)\]{
+  --tw-drop-shadow: drop-shadow(0 25px 25px rgba(0,0,0,0.0477));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 @media (min-width: 1280px){
   .xl\:mx-\[38\.88vw\]{
     margin-left: 38.88vw;
